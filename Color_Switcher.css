@@ -1,0 +1,147 @@
+body{
+		padding:0;
+		margin:0;
+		font-family:"Baloo Da 2";
+		font-size:16px;
+		}    
+.top{
+		display:flex;
+		justify-content:space-between;
+		padding:10px 20px;
+		background-color:#dbdbdb;
+		}    
+.logo{
+		align-self:center;
+		font-weight:700;
+		font-size:23px;
+		}    
+.ham{
+		align-self:center;
+		font-size:30px;
+		font-weight:bolder;
+		}        
+nav{
+		background-color:#f4f4f4;
+		transition: height .7s ease-in;
+		width:0px;
+		height:0px;
+		overflow:hidden;
+		}    
+.option > div, nav > div{
+		padding:10px 25px;
+		text-align:center;
+		padding:15px;
+		} 
+.one{
+		margin:2pc auto auto auto;
+		}
+.one1{
+		font-size:30px;
+		text-align:center;
+		font-weight:700;
+		margin:auto auto 0pc auto;
+		}
+.one2{
+		font-size:25px;
+		text-align:center;
+		font-weight:500;
+		margin:auto auto 2pc auto;
+		}
+.one3{
+		text-align:center;
+		font-weight:400;
+		}
+.two{
+		width:85%;
+		margin:4pc auto;
+		}
+.two1{
+		background-color:#dbdbdb;
+		text-align:center;
+		padding:10px;
+		border:1.5px solid #dbdbdb;
+		border-radius:10px;
+		}
+.drop1{
+		background-color:#dbdbdb;
+		transition: height .7s ease-in;
+		width:0px;
+		height:0px;
+		overflow:hidden;
+		display:flex;
+		flex-wrap:wrap;
+		justify-content:center;
+		align-content:center;
+		border-radius:10px;
+		border:2px double #aeaeae;
+		}
+.drop1 > div{
+		border:1px solid #aeaeae;
+		width:45px;
+		height:45px;
+		margin:2px;
+		}
+.drop1 .one01{
+		background-color:blue;
+		}
+.drop1 .two02{
+		background-color:orange;
+		}
+.drop1 .three03{
+		background-color:green;
+		}
+.drop1 .four04{
+		background-color:lightblue;
+		}
+.drop1 .five05{
+		background-color:lightskyblue;
+		}
+.drop1 .six06{
+		background-color:darkgreen;
+		}
+.drop1 .seven07{
+		background-color:lightgreen;
+		}
+.drop1 .eight08{
+		background-color:grey;
+		}
+.drop1 .nine09{
+		background-color:lime;
+		}
+.drop1 .ten10{
+		background-color:hotpink;
+		}
+.drop1 .eleven11{
+		background-color:yellow;
+		}
+.drop1 .twelve12{
+		background-color:purple;
+		}
+.drop1 .thirt{
+		background-color:brown;
+		}
+.drop1 .fourt{
+		background-color:cyan;
+		}
+.drop1 .fift{
+		background-color:magenta;
+		}
+.drop1 .sixt{
+		background-color:red;
+		}
+.drop1 .sevent{
+		background-color:white;
+		}
+.drop1 .eight{
+		background-color:darkblue;
+		}
+
+
+
+
+@media(min-width:768px){
+.whole{
+		width:40%;
+		margin:auto;
+		}		
+	}
